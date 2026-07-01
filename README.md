@@ -33,7 +33,6 @@ An AI-powered web application that predicts multiple diseases using Machine Lear
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap
 
 ### Backend
 - Python
@@ -46,7 +45,7 @@ An AI-powered web application that predicts multiple diseases using Machine Lear
 - Joblib
 
 ### Database
-- MySQL (if applicable)
+- MySQL 
 
 ### Development Tools
 - VS Code
@@ -114,15 +113,7 @@ AI-Disease-Prediction-System/
 │   ├── anemia.csv
 │   └── typhoid.csv
 │
-├── notebooks/
-│   ├── diabetes_training.ipynb
-│   ├── heart_training.ipynb
-│   └── eda.ipynb
-│
-└── utils/
-    ├── preprocess.py
-    ├── prediction.py
-    └── helper.py
+
 ```
 
 ---
