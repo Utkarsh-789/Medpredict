@@ -7,3 +7,4 @@ shap
 python-dotenv
 mysql-connector-python
 groq
+xgboost
