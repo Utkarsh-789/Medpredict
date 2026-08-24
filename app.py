@@ -21,6 +21,7 @@ app.secret_key = os.getenv("SECRET_KEY")
 
 
 @app.route('/')
+@app.route('/index')
 def home():
     return render_template("index.html")
 
