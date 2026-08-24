@@ -22,7 +22,7 @@ app.secret_key = os.getenv("SECRET_KEY")
 
 @app.route('/')
 def home():
-    return render_template("https://medpredict-825n49q56-utkarsh-3fe0.vercel.app/")
+    return render_template("index.html")
 
 @app.route('/assessment')
 def assessment():
