@@ -23,12 +23,12 @@
     <div class="card-body">
 
         <!-- LEFT FORM -->
-<div>
-    <form id="parkinsonsForm">
+        <div>
+            <form id="parkinsonsForm">
 
-        <div class="grid">
+                <div class="grid">
 
-            <div class="field">
+                    <div class="field">
                 <label>Fo (Hz)</label>
                 <input type="number" name="fo" step="any" placeholder="e.g. 80 – 260">
             </div>
@@ -137,8 +137,7 @@
                 <label>PPE</label>
                 <input type="number" name="ppe" step="any" placeholder="e.g. 0.0 – 0.6">
             </div>
-
-        </div>
+                </div>
 
                 <button type="button" class="predict-btn" onclick="predictParkinson()">Predict</button>
                 <button type="button" class="clear-btn" onclick="clearForm()">Clear</button>
@@ -248,7 +247,7 @@ function predictParkinson() {
             percent.toFixed(2) + "%";
 
         // =========================
-        // 🔥 PROGRESS BAR (PREMIUM)
+        //  PROGRESS BAR (PREMIUM)
         // =========================
         let bar = document.getElementById("progressBar");
 
