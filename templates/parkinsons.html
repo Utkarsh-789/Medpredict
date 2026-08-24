@@ -23,44 +23,122 @@
     <div class="card-body">
 
         <!-- LEFT FORM -->
-        <div>
-            <form id="parkinsonsForm">
+<div>
+    <form id="parkinsonsForm">
 
-                <div class="grid">
+        <div class="grid">
 
-                    <div class="field"><label>Fo (Hz)</label><input type="number" name="fo"></div>
-                    <div class="field"><label>Fhi (Hz)</label><input type="number" name="fhi"></div>
-                    <div class="field"><label>Flo (Hz)</label><input type="number" name="flo"></div>
+            <div class="field">
+                <label>Fo (Hz)</label>
+                <input type="number" name="fo" step="any" placeholder="e.g. 80 – 260">
+            </div>
 
-                    <div class="field"><label>Jitter (%)</label><input type="number" name="jitter"></div>
-                    <div class="field"><label>Jitter Abs</label><input type="number" name="jitter_abs"></div>
-                    <div class="field"><label>RAP</label><input type="number" name="rap"></div>
+            <div class="field">
+                <label>Fhi (Hz)</label>
+                <input type="number" name="fhi" step="any" placeholder="e.g. 100 – 600">
+            </div>
 
-                    <div class="field"><label>PPQ</label><input type="number" name="ppq"></div>
-                    <div class="field"><label>DDP</label><input type="number" name="ddp"></div>
+            <div class="field">
+                <label>Flo (Hz)</label>
+                <input type="number" name="flo" step="any" placeholder="e.g. 60 – 240">
+            </div>
 
-                    <div class="field"><label>Shimmer</label><input type="number" name="shimmer"></div>
-                    <div class="field"><label>Shimmer (dB)</label><input type="number" name="shimmer_db"></div>
+            <div class="field">
+                <label>Jitter (%)</label>
+                <input type="number" name="jitter" step="any" placeholder="e.g. 0.001 – 0.02">
+            </div>
 
-                    <div class="field"><label>APQ3</label><input type="number" name="apq3"></div>
-                    <div class="field"><label>APQ5</label><input type="number" name="apq5"></div>
+            <div class="field">
+                <label>Jitter Abs</label>
+                <input type="number" name="jitter_abs" step="any" placeholder="e.g. 0.00001 – 0.0002">
+            </div>
 
-                    <div class="field"><label>APQ</label><input type="number" name="apq"></div>
-                    <div class="field"><label>DDA</label><input type="number" name="dda"></div>
+            <div class="field">
+                <label>RAP</label>
+                <input type="number" name="rap" step="any" placeholder="e.g. 0.001 – 0.03">
+            </div>
 
-                    <div class="field"><label>NHR</label><input type="number" name="nhr"></div>
-                    <div class="field"><label>HNR</label><input type="number" name="hnr"></div>
+            <div class="field">
+                <label>PPQ</label>
+                <input type="number" name="ppq" step="any" placeholder="e.g. 0.001 – 0.03">
+            </div>
 
-                    <div class="field"><label>RPDE</label><input type="number" name="rpde"></div>
-                    <div class="field"><label>DFA</label><input type="number" name="dfa"></div>
+            <div class="field">
+                <label>DDP</label>
+                <input type="number" name="ddp" step="any" placeholder="e.g. 0.002 – 0.09">
+            </div>
 
-                    <div class="field"><label>Spread1</label><input type="number" name="spread1"></div>
-                    <div class="field"><label>Spread2</label><input type="number" name="spread2"></div>
+            <div class="field">
+                <label>Shimmer</label>
+                <input type="number" name="shimmer" step="any" placeholder="e.g. 0.01 – 0.15">
+            </div>
 
-                    <div class="field"><label>D2</label><input type="number" name="d2"></div>
-                    <div class="field"><label>PPE</label><input type="number" name="ppe"></div>
+            <div class="field">
+                <label>Shimmer (dB)</label>
+                <input type="number" name="shimmer_db" step="any" placeholder="e.g. 0.05 – 1.0">
+            </div>
 
-                </div>
+            <div class="field">
+                <label>APQ3</label>
+                <input type="number" name="apq3" step="any" placeholder="e.g. 0.005 – 0.1">
+            </div>
+
+            <div class="field">
+                <label>APQ5</label>
+                <input type="number" name="apq5" step="any" placeholder="e.g. 0.005 – 0.1">
+            </div>
+
+            <div class="field">
+                <label>APQ</label>
+                <input type="number" name="apq" step="any" placeholder="e.g. 0.005 – 0.15">
+            </div>
+
+            <div class="field">
+                <label>DDA</label>
+                <input type="number" name="dda" step="any" placeholder="e.g. 0.01 – 0.3">
+            </div>
+
+            <div class="field">
+                <label>NHR</label>
+                <input type="number" name="nhr" step="any" placeholder="e.g. 0.000 – 0.3">
+            </div>
+
+            <div class="field">
+                <label>HNR</label>
+                <input type="number" name="hnr" step="any" placeholder="e.g. 8 – 35">
+            </div>
+
+            <div class="field">
+                <label>RPDE</label>
+                <input type="number" name="rpde" step="any" placeholder="e.g. 0.2 – 0.7">
+            </div>
+
+            <div class="field">
+                <label>DFA</label>
+                <input type="number" name="dfa" step="any" placeholder="e.g. 0.5 – 0.9">
+            </div>
+
+            <div class="field">
+                <label>Spread1</label>
+                <input type="number" name="spread1" step="any" placeholder="e.g. -8.0 – -2.0">
+            </div>
+
+            <div class="field">
+                <label>Spread2</label>
+                <input type="number" name="spread2" step="any" placeholder="e.g. 0.0 – 0.5">
+            </div>
+
+            <div class="field">
+                <label>D2</label>
+                <input type="number" name="d2" step="any" placeholder="e.g. 1.0 – 3.0">
+            </div>
+
+            <div class="field">
+                <label>PPE</label>
+                <input type="number" name="ppe" step="any" placeholder="e.g. 0.0 – 0.6">
+            </div>
+
+        </div>
 
                 <button type="button" class="predict-btn" onclick="predictParkinson()">Predict</button>
                 <button type="button" class="clear-btn" onclick="clearForm()">Clear</button>
