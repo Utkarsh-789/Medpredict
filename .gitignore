@@ -1,3 +1,4 @@
 .env
+medpredict.sql
 __pycache__/
 *.pyc
