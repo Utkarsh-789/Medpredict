@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/index.py": {
-      "excludeFiles": "{dataset/**,training_code/**,README.md,*.ipynb,**/__pycache__/**,**/*.pyc}"
+      "excludeFiles": "{dataset/**,training_code/**,README.md,**/__pycache__/**,**/*.pyc}"
     }
   }
 }
