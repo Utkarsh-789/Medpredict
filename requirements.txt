@@ -1,3 +1,9 @@
-flask
+Flask
 numpy
+pandas
 scikit-learn
+joblib
+shap
+python-dotenv
+mysql-connector-python
+groq
